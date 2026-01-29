@@ -1,0 +1,221 @@
+# This is the default ansible 'hosts' file.
+#
+# It should live in /etc/ansible/hosts
+#
+#   - Comments begin with the '#' character
+#   - Blank lines are ignored
+#   - Groups of hosts are delimited by [header] elements
+#   - You can enter hostnames or ip addresses
+#   - A hostname/ip can be a member of multiple groups
+
+# Ex 1: Ungrouped hosts, specify before any group headers:
+
+[108]
+#200.128.159.[1:20]
+GLABVG-L108-001 ansible_host=200.128.159.1
+GLABVG-L108-002 ansible_host=200.128.159.2
+GLABVG-L108-003 ansible_host=200.128.159.3
+GLABVG-L108-004 ansible_host=200.128.159.4
+GLABVG-L108-005 ansible_host=200.128.159.5
+GLABVG-L108-006 ansible_host=200.128.159.6
+GLABVG-L108-007 ansible_host=200.128.159.7
+GLABVG-L108-008 ansible_host=200.128.159.8
+GLABVG-L108-009 ansible_host=200.128.159.9
+GLABVG-L108-010 ansible_host=200.128.159.10
+GLABVG-L108-011 ansible_host=200.128.159.11
+GLABVG-L108-012 ansible_host=200.128.159.12
+GLABVG-L108-013 ansible_host=200.128.159.13
+GLABVG-L108-014 ansible_host=200.128.159.14
+GLABVG-L108-015 ansible_host=200.128.159.15
+GLABVG-L108-016 ansible_host=200.128.159.16
+GLABVG-L108-017 ansible_host=200.128.159.17
+GLABVG-L108-018 ansible_host=200.128.159.18
+GLABVG-L108-019 ansible_host=200.128.159.19
+GLABVG-L108-020 ansible_host=200.128.159.20
+
+[110]
+#200.128.159.[21:40]
+GLABVG-L110-001 ansible_host=200.128.159.21
+GLABVG-L110-002 ansible_host=200.128.159.22
+GLABVG-L110-003 ansible_host=200.128.159.23
+GLABVG-L110-004 ansible_host=200.128.159.24
+GLABVG-L110-005 ansible_host=200.128.159.25
+GLABVG-L110-006 ansible_host=200.128.159.26
+GLABVG-L110-007 ansible_host=200.128.159.27
+GLABVG-L110-008 ansible_host=200.128.159.28
+GLABVG-L110-009 ansible_host=200.128.159.29
+GLABVG-L110-010 ansible_host=200.128.159.30
+GLABVG-L110-011 ansible_host=200.128.159.31
+GLABVG-L110-012 ansible_host=200.128.159.32
+GLABVG-L110-013 ansible_host=200.128.159.33
+GLABVG-L110-014 ansible_host=200.128.159.34
+GLABVG-L110-015 ansible_host=200.128.159.35
+GLABVG-L110-016 ansible_host=200.128.159.36
+GLABVG-L110-017 ansible_host=200.128.159.37
+GLABVG-L110-018 ansible_host=200.128.159.38
+GLABVG-L110-019 ansible_host=200.128.159.39
+GLABVG-L110-020 ansible_host=200.128.159.40
+
+[112]
+#200.128.159.[41:60]
+GLABVG-L112-001 ansible_host=200.128.159.41
+GLABVG-L112-002 ansible_host=200.128.159.42
+GLABVG-L112-003 ansible_host=200.128.159.43
+GLABVG-L112-004 ansible_host=200.128.159.44
+GLABVG-L112-005 ansible_host=200.128.159.45
+GLABVG-L112-006 ansible_host=200.128.159.46
+GLABVG-L112-007 ansible_host=200.128.159.47
+GLABVG-L112-008 ansible_host=200.128.159.48
+GLABVG-L112-009 ansible_host=200.128.159.49
+GLABVG-L112-010 ansible_host=200.128.159.50
+GLABVG-L112-011 ansible_host=200.128.159.51
+GLABVG-L112-012 ansible_host=200.128.159.52
+GLABVG-L112-013 ansible_host=200.128.159.53
+GLABVG-L112-014 ansible_host=200.128.159.54
+GLABVG-L112-015 ansible_host=200.128.159.55
+GLABVG-L112-016 ansible_host=200.128.159.56
+GLABVG-L112-017 ansible_host=200.128.159.57
+GLABVG-L112-018 ansible_host=200.128.159.58
+GLABVG-L112-019 ansible_host=200.128.159.59
+GLABVG-L112-020 ansible_host=200.128.159.60
+
+[114]
+#200.128.159.[61:84]
+GLABVG-L114-001 ansible_host=200.128.159.61
+GLABVG-L114-002 ansible_host=200.128.159.62
+GLABVG-L114-003 ansible_host=200.128.159.63
+GLABVG-L114-004 ansible_host=200.128.159.64
+GLABVG-L114-005 ansible_host=200.128.159.65
+GLABVG-L114-006 ansible_host=200.128.159.66
+GLABVG-L114-007 ansible_host=200.128.159.67
+GLABVG-L114-008 ansible_host=200.128.159.68
+GLABVG-L114-009 ansible_host=200.128.159.69
+GLABVG-L114-010 ansible_host=200.128.159.70
+GLABVG-L114-011 ansible_host=200.128.159.71
+GLABVG-L114-012 ansible_host=200.128.159.72
+GLABVG-L114-013 ansible_host=200.128.159.73
+GLABVG-L114-014 ansible_host=200.128.159.74
+GLABVG-L114-015 ansible_host=200.128.159.75
+GLABVG-L114-016 ansible_host=200.128.159.76
+GLABVG-L114-017 ansible_host=200.128.159.77
+GLABVG-L114-018 ansible_host=200.128.159.78
+GLABVG-L114-019 ansible_host=200.128.159.79
+GLABVG-L114-020 ansible_host=200.128.159.80
+GLABVG-L114-021 ansible_host=200.128.159.81
+GLABVG-L114-022 ansible_host=200.128.159.82
+GLABVG-L114-023 ansible_host=200.128.159.83
+GLABVG-L114-024 ansible_host=200.128.159.84
+
+[116]
+#200.128.159.[90:114]
+GLABVG-L116-001 ansible_host=200.128.159.91
+GLABVG-L116-002 ansible_host=200.128.159.92
+GLABVG-L116-003 ansible_host=200.128.159.93
+GLABVG-L116-004 ansible_host=200.128.159.94
+GLABVG-L116-005 ansible_host=200.128.159.95
+GLABVG-L116-006 ansible_host=200.128.159.96
+GLABVG-L116-007 ansible_host=200.128.159.97
+GLABVG-L116-008 ansible_host=200.128.159.98
+GLABVG-L116-009 ansible_host=200.128.159.99
+GLABVG-L116-010 ansible_host=200.128.159.100
+GLABVG-L116-011 ansible_host=200.128.159.101
+GLABVG-L116-012 ansible_host=200.128.159.102
+GLABVG-L116-013 ansible_host=200.128.159.103
+GLABVG-L116-014 ansible_host=200.128.159.104
+GLABVG-L116-015 ansible_host=200.128.159.105
+GLABVG-L116-016 ansible_host=200.128.159.106
+GLABVG-L116-017 ansible_host=200.128.159.107
+GLABVG-L116-018 ansible_host=200.128.159.108
+GLABVG-L116-019 ansible_host=200.128.159.109
+GLABVG-L116-020 ansible_host=200.128.159.110
+GLABVG-L116-021 ansible_host=200.128.159.111
+GLABVG-L116-022 ansible_host=200.128.159.112
+GLABVG-L116-023 ansible_host=200.128.159.113
+GLABVG-L116-024 ansible_host=200.128.159.114
+
+[108:vars]
+ansible_connection=winrm
+ansible_winrm_transport=ntlm
+ansible_user=Administrador
+ansible_password=!@sptCFT!@
+ansible_winrm_server_cert_validation=ignore
+ansible_port=5985
+
+[110:vars]
+ansible_connection=winrm
+ansible_winrm_transport=ntlm
+ansible_user=Administrador
+ansible_password=!@sptCFT!@
+ansible_winrm_server_cert_validation=ignore
+ansible_port=5985
+
+[112:vars]
+ansible_connection=winrm
+ansible_winrm_transport=ntlm
+ansible_user=Administrador
+ansible_password=!@sptCFT!@
+ansible_winrm_server_cert_validation=ignore
+ansible_port=5985
+
+[114:vars]
+ansible_connection=winrm
+ansible_winrm_transport=ntlm
+ansible_user=Administrador
+ansible_password=!@sptCFT!@
+ansible_winrm_server_cert_validation=ignore
+ansible_port=5985
+
+[116:vars]
+ansible_connection=winrm
+ansible_winrm_transport=ntlm
+ansible_user=Administrador
+ansible_password=!@sptCFT!@
+ansible_winrm_server_cert_validation=ignore
+ansible_port=5985
+
+
+
+
+
+## green.example.com
+## blue.example.com
+## 192.168.100.1
+## 192.168.100.10
+
+# Ex 2: A collection of hosts belonging to the 'webservers' group:
+
+## [webservers]
+## alpha.example.org
+## beta.example.org
+## 192.168.1.100
+## 192.168.1.110
+
+# If you have multiple hosts following a pattern, you can specify
+# them like this:
+
+## www[001:006].example.com
+
+# You can also use ranges for multiple hosts: 
+
+## db-[99:101]-node.example.com
+
+# Ex 3: A collection of database servers in the 'dbservers' group:
+
+## [dbservers]
+##
+## db01.intranet.mydomain.net
+## db02.intranet.mydomain.net
+## 10.25.1.56
+## 10.25.1.57
+
+
+# Ex4: Multiple hosts arranged into groups such as 'Debian' and 'openSUSE':
+
+## [Debian]
+## alpha.example.org
+## beta.example.org
+
+## [openSUSE]
+## green.example.com
+## blue.example.com
+

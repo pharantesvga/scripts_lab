@@ -1,0 +1,5 @@
+copiar a pasta para o diretorio C:/
+
+deixar somente o arquivo bloquear)tudo_v3.1.bat
+
+Executar script logado no usuário administrador e depois reiniciar a máquina.

@@ -1,0 +1,13 @@
+---
+- hosts: 114l
+  become: yes
+  gather_facts: yes
+
+  tasks:
+    - name: Definir nome
+      set_fact:
+        novo_nome: "GLABVG-{{ inventory_hostname }}"
+    - name: Ajustar hostname
+      ansible.builtin.hostname:
+        name: "{{ novo_nome }}"
+

@@ -1,0 +1,13 @@
+- hosts: 114w
+  gather_facts: yes
+
+  tasks:
+    - name: Renomear hostname para o nome do inventário
+      ansible.windows.win_hostname:
+        name: "{{ inventory_hostname }}"
+      register: winhostname
+
+    - name: Reboot se necessário
+      ansible.windows.win_reboot:
+           when: winhostname.reboot_required
+
